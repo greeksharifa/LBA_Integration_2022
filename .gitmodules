@@ -10,3 +10,6 @@
 [submodule "Scene-Graph-Extraction"]
 	path = Scene-Graph-Extraction
 	url = https://github.com/youngyoung1021/Scene-Graph-Extraction.git
+[submodule "DramaQA"]
+	path = DramaQA
+	url = https://github.com/liveseongho/DramaQA.git
