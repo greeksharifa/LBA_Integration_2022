@@ -37,12 +37,42 @@ Multimodal time-series data-based integration architecture for recognizing and s
     - Prof. Junmo Kim: OOD diffusion
         - Calculation of OOD diffusion score from a given image
         - Example of input/output
+            - Input: Each frame of a video 
+                ```bash
+                {
+                    "train_images": [
+                        "./dramaqa_frames/AnotherMissOh15/003/0080/IMAGE_0000008630.jpg",
+                        "./dramaqa_frames/AnotherMissOh15/003/0080/IMAGE_0000008574.jpg",
+                        ...
+                        "./dramaqa_frames/AnotherMissOh15/003/0080/IMAGE_0000008702.jpg",
+                    ],
+                    "test_images": [
+                        "./dramaqa_frames/AnotherMissOh17/005/0085/IMAGE_0000008574.jpg"
+                    ]
+                }
+                ```
+            - Output: Score of Out-of-Distribution diffusion
+                ```bash
+                {
+                    "./dramaqa_frames/AnotherMissOh17/005/0085/IMAGE_0000008521.jpg": 0.7401852011680603
+                }
+                ```
         - Repo.: https://github.com/hushon/ood-diffusion
     
 - Question Generation Module from Kyunghee University (Prof. Seong-Bae Park)
     - Generating questions based on OOD information
     - Example of input/output
-    
+        - Input: 
+            ```bash
+            [{
+                "vid" : AnotherMissOh14_001_0000,
+                "False_promise" : "Haeyoung1 and Dokyung are in love and the two went through many things before starting to date."
+            }]
+            ```
+        - Output
+        ```bash
+        [{"question" : "How did Haeyoung1 feel when Haeyoung1 was with Dokyung?"}]
+        ```
     - Repo.: https://github.com/gminipark/LBA-DramaQG
 
 
