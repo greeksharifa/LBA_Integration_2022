@@ -1,6 +1,6 @@
 # Module Integration Architecture for Learning by Asking (LBA)
 Multimodal time-series data-based integration architecture for recognizing and supplementing with uncertainties. This architecture contains four modules as shown in the image below.
-[Architecture framework image]
+
 
 ## Module Information
 
@@ -51,7 +51,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
                     ]
                 }
                 ```
-            - Output: Score of Out-of-Distribution diffusion
+            - Output: Score of Out-of-Distribution (OOD) diffusion
                 ```bash
                 {
                     "./dramaqa_frames/AnotherMissOh17/005/0085/IMAGE_0000008521.jpg": 0.7401852011680603
@@ -70,9 +70,9 @@ Multimodal time-series data-based integration architecture for recognizing and s
             }]
             ```
         - Output
-        ```bash
-        [{"question" : "How did Haeyoung1 feel when Haeyoung1 was with Dokyung?"}]
-        ```
+            ```bash
+            [{"question" : "How did Haeyoung1 feel when Haeyoung1 was with Dokyung?"}]
+            ```
     - Repo.: https://github.com/gminipark/LBA-DramaQG
 
 
