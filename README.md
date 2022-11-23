@@ -85,10 +85,10 @@ git clone --recurse-submodules https://github.com/greeksharifa/LBA_Integration.g
 
 ```
 
-## update submodules
+## Update submodules
 ```bash
 # in root directory
-git submodule update --remote Scene-Graph-Extraction
+git submodule update --remote scene_graph_extract
 git submodule update --remote LBA-ARVQA
 git submodule update --remote ood-diffusion
 git submodule update --remote LBA-DramaQG
