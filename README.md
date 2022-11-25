@@ -60,7 +60,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
         - Repo.: https://github.com/hushon/ood-diffusion
     
 - Question Generation Module from Kyunghee University (Prof. Seong-Bae Park)
-    - Generating questions based on OOD information
+    - Generating (sub)-questions based on OOD information
     - Example of input/output
         - Input: 
             ```bash
@@ -75,6 +75,19 @@ Multimodal time-series data-based integration architecture for recognizing and s
             ```
     - Repo.: https://github.com/gminipark/LBA-DramaQG
 
+
+- Oracle Module from Seoul National University (Prof. Byoung-Tak Zhang & Minsu Lee)
+    - Take answers for (sub)-questions from oracle module & utilize answers and knowledge systems to select appropriate responses to VideoQA's questions
+    - Example of input/output
+        - Input: 
+            ```bash
+            [{"question" : "How did Haeyoung1 feel when Haeyoung1 was with Dokyung?"}]
+            ```
+        - Output
+            ```bash
+            [{"answer_from_oracle" : "Happy"}]
+            ```
+    - Repo.: https://github.com/greeksharifa/LBA_integration/oracle_module
 
 ---
 
