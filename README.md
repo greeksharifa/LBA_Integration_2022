@@ -4,7 +4,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
 
 ## Module Information
 
-- Knowledge Module from Hanyang University (Prof. Eun-Sol Kim)
+- **Knowledge Module** from Hanyang University (Prof. Eun-Sol Kim)
     - Construction of neuro-symbolic knowledge graph from DramaQA dataset
     - Example of input/output
         - Input: Each frame of a video
@@ -27,7 +27,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
             - ```custom_prediction.json``` contains bounding boxes of obect, edge labels, and scores of predicted predicates
     - Repo.: https://github.com/youngyoung1021/scene_graph_extract
 
-- Out-of-Distribution (OOD) Detection Module from KAIST (Prof. Chang-Dong Yoo and Prof. Junmo Kim)
+- **Out-of-Distribution (OOD) Detection Module** from KAIST (Prof. Chang-Dong Yoo and Prof. Junmo Kim)
     - Prof. Chang-Dong Yoo: Anserability Reasoning submodule
         - Inference of answerability reasoning from the question given an image
         - Example of input/output
@@ -59,7 +59,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
                 ```
         - Repo.: https://github.com/hushon/ood-diffusion
     
-- Question Generation Module from Kyunghee University (Prof. Seong-Bae Park)
+- **Question Generation Module** from Kyunghee University (Prof. Seong-Bae Park)
     - Generating (sub)-questions based on OOD information
     - Example of input/output
         - Input: 
@@ -76,7 +76,7 @@ Multimodal time-series data-based integration architecture for recognizing and s
     - Repo.: https://github.com/gminipark/LBA-DramaQG
 
 
-- Oracle Module from Seoul National University (Prof. Byoung-Tak Zhang & Minsu Lee)
+- **Oracle Module** from Seoul National University (Prof. Byoung-Tak Zhang & Minsu Lee)
     - Take answers for (sub)-questions from oracle module & utilize answers and knowledge systems to select appropriate responses to VideoQA's questions
     - Example of input/output
         - Input: 
