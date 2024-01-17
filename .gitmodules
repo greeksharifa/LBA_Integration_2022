@@ -1,0 +1,6 @@
+[submodule "LBA-ARVQA"]
+	path = LBA-ARVQA
+	url = https://github.com/hee-suk-yoon/LBA-ARVQA.git
+[submodule "LBA-DramaQG"]
+	path = LBA-DramaQG
+	url = https://github.com/gminipark/LBA-DramaQG.git
